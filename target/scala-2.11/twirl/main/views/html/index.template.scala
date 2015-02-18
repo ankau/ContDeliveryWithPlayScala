@@ -38,8 +38,8 @@ Seq[Any](format.raw/*1.19*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Wed Feb 18 11:25:22 CET 2015
-                  SOURCE: /Users/anka/Documents/@work/Projekte/Weiterbildung/continuous-delivery/with-play-and-scala/github-repo/ContDeliveryWithPlayScala/scala-act-app/app/views/index.scala.html
+                  DATE: Wed Feb 18 17:01:08 CET 2015
+                  SOURCE: /Users/anka/Documents/@work/Projekte/Weiterbildung/continuous-delivery/with-play-and-scala/github-repo/ContDeliveryWithPlayScala/app/views/index.scala.html
                   HASH: 6ccab1e3b2ad8ca4c9794c22023c616c4b7c730b
                   MATRIX: 505->1|610->18|638->21|669->44|708->46|740->53|754->59|791->76|823->79
                   LINES: 19->1|22->1|24->3|24->3|24->3|26->5|26->5|26->5|28->7

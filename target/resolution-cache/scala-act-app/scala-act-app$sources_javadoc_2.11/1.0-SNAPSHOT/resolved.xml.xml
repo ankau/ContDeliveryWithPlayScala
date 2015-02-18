@@ -4,7 +4,7 @@
 		module="scala-act-app$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150218112555"
+		publication="20150218170114"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -46,15 +46,12 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="build-link" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="build-link" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="build-link" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-exceptions" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-exceptions" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-exceptions" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.javassist" name="javassist" rev="3.18.2-GA" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="javassist" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -62,7 +59,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-iteratees_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-iteratees_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-iteratees_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scala-stm" name="scala-stm_2.11" rev="0.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="scala-stm_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -74,15 +70,12 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-json_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-json_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-json_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-functional_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-functional_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-functional_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-datacommons_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-datacommons_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-datacommons_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="joda-time" name="joda-time" rev="2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="joda-time" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -165,7 +158,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-jdbc_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-jdbc_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-jdbc_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.jolbox" name="bonecp" rev="0.8.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="bonecp" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -177,7 +169,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="anorm_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="anorm_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="anorm_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.jsuereth" name="scala-arm_2.11" rev="1.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="scala-arm_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -189,7 +180,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-cache_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-cache_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="net.sf.ehcache" name="ehcache-core" rev="2.6.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="ehcache-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -197,7 +187,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-ws_2.11" rev="2.3.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-ws_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-ws_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.google.guava" name="guava" rev="16.0.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);echo-trace-compile->default(compile);echo-trace-test->default(compile)">
 			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -227,7 +216,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.3.8" transitive="false" conf="test->default(compile);test-internal->default(compile);echo-trace-test->default(compile)">
 			<artifact name="play-test_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-test_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="junit" name="junit" rev="4.11" transitive="false" conf="test->default(compile);test-internal->default(compile);echo-trace-test->default(compile)">
 			<artifact name="junit" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -452,7 +440,6 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-docs_2.11" rev="2.3.8" transitive="false" conf="docs->default(compile)">
 			<artifact name="play-docs_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="play-docs_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-doc_2.11" rev="1.1.0" transitive="false" conf="docs->default(compile)">
 			<artifact name="play-doc_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -505,10 +492,6 @@
 		<dependency org="org.aspectj" name="aspectjweaver" rev="1.7.3" transitive="false" conf="echo-weave->default(compile)">
 			<artifact name="aspectjweaver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="aspectjweaver" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="com.typesafe.trace" name="trace-sigar-libs" rev="0.1.7" transitive="false" conf="echo-sigar->default(compile)">
-			<artifact name="trace-sigar-libs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="trace-sigar-libs" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 	</dependencies>
 </ivy-module>
